@@ -262,7 +262,7 @@ ts3clientService.on "started", (ts3proc) =>
 			when "vol"
 				vol = parseInt paramline
 
-				if paramline.trim().length <= 0 or vol > 511 or vol < 0
+				if paramline.trim().length <= 0 or vol > 1024 or vol < 0
 					ts3query.sendtextmessage args.targetmode, invoker.id, "[B]vol *number*[/B] - takes a number between 0 (0%) and 1024 (400%) to set the volume. 100% is 256. Defaults to 128 (50%) on startup."
 					return
 
