@@ -1,5 +1,7 @@
 # TS3Bot
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/icedream/ts3bot-control.svg)](https://greenkeeper.io/)
+
 A new and easy way to set up your own TeamSpeak 3 bot!
 
 This repository contains the Node.js/IcedCoffeeScript code needed for the TS3Bot Docker image.
